@@ -1,6 +1,0 @@
-#!/bin/bash
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCYlNTpQyXqd4hbk4gK2FHsCOtw1NQLMrGd6dpN9GIWqIhNWp37iBpM3F40WHcL3mSoOW95LFHlLeWFY1l3kmFowp4VHlhnbfxhDj86CTS2TX6z2uJTZ3Bl/g2hHl7HP2OgDduB/+0QLbw9AlY8yFu+eGBR8YNARUHf1M2OSw9blG5gaKojfzXMJyD6JwoVulJtRZn36lj7Ar9MBn2lj0aSfhLe4fWNd7tCnUlLdH4vheDjDm9SnykSDjhfpshfekc4rIbh19/sn0x4ssJlDx2QnXtTE6f1nMAJ8DMYUp04gtLH72DmH6wVQyY4nNGJBNt07QaPagU0kuFd5mLK3ctR ec2-user@ip-10-112-40-62" >> /home/${user}/.ssh/authorized_keys
-#echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5KjvJUkrgs1sdgbZ9jiVjItKKqw6MVd644J135Wv3CSBWWQ+MELy5NsVBIL3NaD2pyt5UA9Bv9Zgy+zISdONXgUJ26Hr83LZ1NBlWkYj086Jieot7i/g2oAHNf98r4tVoyiJn7LOA+NyHddxMTEx5be6CYF7a/CF5JspdGa2nGK/ogo+kAYsDTpQkIvYXarrKpLzQ+RWqMbMKKjyq2v1nBKuwV2uYZkFy7GKoLWQij8eADYbdPH5FIqmLi17MWGel4p3Vv1fbhS8pda4VC3fLoeNoE1i/06ECYc195pyv1dH9W2vQvzMwqp6rvUYKDguz5EGUFKmZF3548+fb00qn ec2-user@ip-10-1-0-135" >> /home/${user}/.ssh/authorized_keys
-echo "++++++++ Ansible key added +++++++"
-${package_manager} install -y python
-echo "++++++++ Python installed from central repo ++++++++++"
